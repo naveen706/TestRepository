@@ -12,6 +12,7 @@ import org.springframework.http.converter.protobuf.ProtobufHttpMessageConverter;
 public class App {
 
     public static void main(String[] args) {
+        System.out.println("Test Project.....!");
         SpringApplication.run(App.class, args);
     }
 
